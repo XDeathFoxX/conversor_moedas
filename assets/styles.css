@@ -1,0 +1,387 @@
+@import url('./reset.css');
+@font-face {
+    font-family: LuckiestGuy;
+    src: local(LuckiestGuy), url('../assets/fonts/LuckiestGuy-Regular.ttf');
+}
+@font-face {
+    font-family: OpenSans;
+    src: local(OpenSans), url('../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../assets/images/Header\ Background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.header p {
+    white-space: pre-line;
+    margin-bottom: 20px;
+}
+
+.imagine{
+    margin-top: 1.875rem;
+}
+
+.baixar {
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    width: 205px;
+    height: 44px;
+    margin-bottom: 1.25rem;
+}
+
+.abrir {
+    border-radius: 28px;
+    background-color: #23272A;
+    width: 281px;
+    height: 44px;
+    color: #FFFFFF;
+    line-height: 21.79px;
+    font-weight: 400;
+}
+
+.imagine {
+    font-family: LuckiestGuy;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lugar {
+    font-family: Opensans;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+p {
+    font-family: Opensans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #23272A;
+}
+
+.content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+}
+
+.h2 {
+    font-family: Opensans;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 54.47px;
+    color: #23272A;
+    margin-bottom: 0.6rem;
+}
+
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+}
+
+.content-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+}
+
+.content-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.tecnologia {
+    font-family: LuckiestGuy;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #23272A;
+    margin-bottom: 0.6rem;
+}
+
+.reverse {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .header {
+        background-image: url(../assets/images/Header\ BackgroundMobile.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .imagine {
+        font-size: 2rem;
+        padding-left: 1rem;
+        text-align: start;
+    }
+
+    .lugar {
+        padding-left: 1rem;
+        text-align: start;
+    }
+
+    .baixar {
+        width: 17.563rem;
+    }
+
+    .abrir {
+        margin-bottom: 1rem;
+    }
+
+    .content-1 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+    }
+    
+    img#image01,
+    img#image02,
+    img#image03,
+    img#image04 {
+        width: 80%;    
+    }
+
+    .h2 {
+        font-family: Opensans;
+        font-size: 1.5rem;
+        padding: 2.5rem, 1.5rem, 2.5rem, 1.5rem;
+        line-height: 2.188rem;
+        font-weight: 800;
+    }
+    .content-2 {
+        flex-direction: column-reverse;
+        margin: 0.625rem;
+        align-items: center;
+    }
+
+    .content-3 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+    }
+
+
+    .content-4 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+    }
+
+    .tecnologia {
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    footer img {
+        width: 10.125rem;
+        height: 2.813rem;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    .header {
+        background-image: url(../assets/images/Header\ BackgroundMobile.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .imagine {
+        font-size: 2rem;
+        padding-left: 1rem;
+        text-align: start;
+        align-items: center;
+    }
+
+    .lugar {
+        padding-left: 1rem;
+        text-align: start;
+    }
+
+    .baixar {
+        width: 17.563rem;
+    }
+
+    .abrir {
+        margin-bottom: 1rem;
+    }
+
+    .content-1 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    img#image01,
+    img#image02,
+    img#image03,
+    img#image04 {
+        width: 80%;    
+    }
+
+    .h2 {
+        font-family: Opensans;
+        font-size: 1.5rem;
+        padding: 2.5rem, 1.5rem, 2.5rem, 1.5rem;
+        line-height: 2.188rem;
+        font-weight: 800;
+    }
+    .content-2 {
+        flex-direction: column-reverse;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-3 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .content-4 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tecnologia {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    footer img {
+        width: 10.125rem;
+        height: 2.813rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    .header {
+        background-image: url(../assets/images/Header\ BackgroundMobile.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .imagine {
+        font-size: 2rem;
+        padding-left: 1rem;
+        text-align: start;
+        align-items: center;
+    }
+
+    .lugar {
+        padding-left: 1rem;
+        text-align: start;
+    }
+
+    .baixar {
+        width: 17.563rem;
+    }
+
+    .abrir {
+        margin-bottom: 1rem;
+    }
+
+    .content-1 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    img#image01,
+    img#image02,
+    img#image03,
+    img#image04 {
+        width: 80%;    
+    }
+
+    .h2 {
+        font-family: Opensans;
+        font-size: 1.5rem;
+        padding: 2.5rem, 1.5rem, 2.5rem, 1.5rem;
+        line-height: 2.188rem;
+        font-weight: 800;
+    }
+    .content-2 {
+        flex-direction: column-reverse;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-3 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .content-4 {
+        flex-direction: column;
+        margin: 0.625rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tecnologia {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    footer img {
+        width: 10.125rem;
+        height: 2.813rem;
+    }
+}
